@@ -1,0 +1,2 @@
+DELETE http://localhost:3001/api/socios/61f917e67fa946893bf4d837
+Content-Type: application/json

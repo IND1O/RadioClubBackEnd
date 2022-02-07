@@ -1,0 +1,13 @@
+PUT http://localhost:3001/api/socios
+
+{
+    "numero": 69,
+    "tipo": "Activo",
+    "nombre": "Tifus max",
+    "licencia": "luko",
+    "dni": 25661174,
+    "telefono": 4229093,
+    "direccion": "Tets 5",
+    "email": "test23123@correo.com",
+    
+	}

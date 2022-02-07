@@ -1,0 +1,34 @@
+{
+  "name": "new-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon index.js",
+    "start": "cross-env NODE_ENV=production node index.js",
+    "test": "cross-env NODE_ENV=test PORT=1234 jest --silent --verbose tests/user.test.js",
+    "test:watch": "npm run test -- --watch"
+  },
+  "keywords": [],
+  "author": "José María Asial",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "27.4.7",
+    "nodemon": "2.0.15",
+    "supertest": "6.2.2"
+  },
+  "dependencies": {
+    "bcrypt": "5.0.1",
+    "cors": "2.8.5",
+    "cross-env": "7.0.3",
+    "dotenv": "14.3.2",
+    "express": "4.17.2",
+    "express-validator": "6.14.0",
+    "jsonwebtoken": "8.5.1",
+    "mongoose": "6.1.8",
+    "mongoose-unique-validator": "^3.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}

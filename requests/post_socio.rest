@@ -1,0 +1,15 @@
+POST http://localhost:3001/api/socios
+Content-Type: application/json
+
+
+{
+	    "numero": 88,
+      "tipo": "delete",
+      "nombre": "Next del",
+      "licencia": "LU6TEX",
+      "dni": 23333,
+      "telefono": 56,
+      "direccion": "delete 6",
+      "email": "delete@correo.com",
+      "pago": "2020-10-31"
+}
